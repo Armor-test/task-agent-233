@@ -1,0 +1,40 @@
+# CODEOWNERS file for task-agent-233
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-ux @Armor-test/grp-api @Armor-test/dept-notifications
+
+# Directory ownership
+/middleware/ @Armor-test/dept-data @Armor-test/team-governance
+/styles/ @Armor-test/team-research @Armor-test/unit-test
+/static/ @Armor-test/unit-cloud @Armor-test/dept-automation @Armor-test/squad-performance
+/hooks/ @Armor-test/squad-qa @Armor-test/unit-design
+/pages/ @Armor-test/squad-search @Armor-test/squad-cache
+/data/ @Armor-test/team-core @Armor-test/squad-api
+/vendor/ @Armor-test/dept-data @Armor-test/squad-mobile
+/migrations/ @Armor-test/squad-ux @Armor-test/squad-api
+/api/ @Armor-test/unit-test @Armor-test/dept-release
+/docs/ @Armor-test/squad-research @Armor-test/grp-storage @Armor-test/team-core
+/modules/ @Armor-test/dept-security @Armor-test/squad-reporting
+
+# File type ownership
+*.h @Armor-test/team-notifications @Armor-test/squad-reporting @Armor-test/dept-api
+*.yaml @Armor-test/dept-reliability @Armor-test/squad-apps @Armor-test/team-governance
+*.rs @Armor-test/dept-security @Armor-test/dept-identity
+*.css @Armor-test/team-security @Armor-test/dept-reporting @Armor-test/dept-logging
+*.graphql @Armor-test/unit-design @Armor-test/dept-ui @Armor-test/squad-payments
+*.scss @Armor-test/squad-frontend @Armor-test/team-governance @Armor-test/grp-ui
+*.yml @Armor-test/squad-performance @Armor-test/dept-data
+*.toml @Armor-test/grp-storage @Armor-test/team-reporting @Armor-test/dept-reliability
+*.xml @Armor-test/team-security @Armor-test/squad-database @Armor-test/dept-reliability
+*.kt @Armor-test/unit-governance @Armor-test/unit-design @Armor-test/team-logging
+*.php @Armor-test/unit-cloud @Armor-test/squad-search
+*.json @Armor-test/squad-product @Armor-test/dept-notifications
+*.ts @Armor-test/dept-test @Armor-test/team-logging @Armor-test/unit-cloud
+*.go @Armor-test/grp-reporting @Armor-test/dept-reliability @Armor-test/squad-cloud
+*.ini @Armor-test/squad-reporting @Armor-test/unit-test @Armor-test/dept-test
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
